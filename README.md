@@ -35,9 +35,9 @@ terraform-project/
 
 ## Prerequisites
 
-Terraform >= 1.5.0
-AWS CLI configured with appropriate credentials
-An S3 bucket and DynamoDB table for state management
+- Terraform >= 1.5.0
+- AWS CLI configured with appropriate credentials
+- An S3 bucket and DynamoDB table for state management
 
 ## Setup
 
