@@ -4,15 +4,15 @@ This module provisions an EC2 instance in AWS with a public IP address.
 
 ### Inputs
 
-environment: The deployment environment (e.g., staging, production).
-vpc_id: The ID of the VPC.
-subnet_id: The ID of the subnet.
-instance_type: The EC2 instance type.
+- environment: The deployment environment (e.g., staging, production).
+- vpc_id: The ID of the VPC.
+- subnet_id: The ID of the subnet.
+- instance_type: The EC2 instance type.
 
 ### Outputs
 
-instance_id: The ID of the EC2 instance.
-public_ip: The public IP of the EC2 instance.
+- instance_id: The ID of the EC2 instance.
+- public_ip: The public IP of the EC2 instance.
 
 Usage
 
