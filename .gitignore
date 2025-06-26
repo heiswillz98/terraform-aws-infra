@@ -1,0 +1,43 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+terraform.tfstate*
+# *.tfvars
+*.tfvars.json
+*.lock.hcl
+
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore sensitive files
+.secrets/
+credentials
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore logs and other runtime files
+*.log
+*.log.*
