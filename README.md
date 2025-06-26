@@ -4,7 +4,32 @@ This project uses Terraform to provision and manage infrastructure for staging a
 
 ## Folder Structure
 
-<pre lang="text"><code> terraform-project/ ├── environments/ │ ├── staging/ │ │ ├── main.tf │ │ ├── backend.tf │ │ ├── terraform.tfvars │ │ ├── outputs.tf │ │ └── variables.tf │ └── production/ │ ├── main.tf │ ├── backend.tf │ ├── terraform.tfvars │ ├── outputs.tf │ └── variables.tf ├── modules/ │ ├── vpc/ │ │ ├── main.tf │ │ ├── variables.tf │ │ ├── outputs.tf │ │ └── README.md │ └── ec2/ │ ├── main.tf │ ├── variables.tf │ ├── outputs.tf │ └── README.md └── README.md </code></pre>
+terraform-project/
+├── environments/
+│ ├── staging/
+│ │ ├── main.tf
+│ │ ├── backend.tf
+│ │ ├── terraform.tfvars
+│ │ ├── outputs.tf
+│ │ └── variables.tf
+│ └── production/
+│ ├── main.tf
+│ ├── backend.tf
+│ ├── terraform.tfvars
+│ ├── outputs.tf
+│ └── variables.tf
+├── modules/
+│ ├── vpc/
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ ├── outputs.tf
+│ │ └── README.md
+│ └── ec2/
+│ ├── main.tf
+│ ├── variables.tf
+│ ├── outputs.tf
+│ └── README.md
+└── README.md
 
 ## Prerequisites
 
