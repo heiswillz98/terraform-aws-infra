@@ -21,6 +21,8 @@ module "ec2" {
   source = "./modules/ec2"
 
   environment   = "staging"
+  aws_region    = "us-east-1"
+  amis          = "ami-12345abc"
   vpc_id        = "<vpc_id>"
   subnet_id     = "<subnet_id>"
   instance_type = "t2.micro"
